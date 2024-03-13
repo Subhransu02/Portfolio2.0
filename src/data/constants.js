@@ -165,7 +165,7 @@ export const experiences = [
       "AWS",
       "Networking",
     ],
-    doc: "https://drive.google.com/file/d/1q3R-lHAgswV_I0VhF8odaJt_epWqgIV3/view",
+    doc: "https://firebasestorage.googleapis.com/v0/b/uploadphoto-86e4f.appspot.com/o/in.jpg?alt=media&token=49e874e1-f02e-4314-bbc7-eef360895772",
   },
   {
     id: 1,
