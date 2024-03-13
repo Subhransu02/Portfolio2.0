@@ -1,8 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import { Snackbar } from "@mui/material";
+// import emailjs from "@emailjs/browser";
+// import { Snackbar } from "@mui/material";
+import { SiCodechef, SiLeetcode, SiCodingninjas, SiGeeksforgeeks   } from "react-icons/si";
+import { Bio } from "../../data/constants";
+
+const SocialMediaIcon = styled.a`
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: ${({ theme }) => theme.text_primary};
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
 
 const Container = styled.div`
   display: flex;
@@ -150,25 +163,59 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Contact</Title>
-        <Desc>
-          Feel free to reach out to me for any questions or opportunities!
-        </Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <Title>Coding Profiles</Title>
+
+        {/* <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
-        </ContactForm>
-        <Snackbar
+        </ContactForm> */}
+        {/* <Snackbar
           open={open}
           autoHideDuration={6000}
           onClose={() => setOpen(false)}
           message="Email sent successfully!"
           severity="success"
-        />
+        /> */}
+
+        <SocialMediaIcon href={Bio.leetcode} target="display">
+          <SiLeetcode color="yellow" />
+        </SocialMediaIcon>
+        <Desc>Solved 260+ Questions</Desc>
+
+        <SocialMediaIcon href={Bio.codechef} target="display">
+          <SiCodechef color="yellow" />
+        </SocialMediaIcon>
+        <Desc>Participated in many contests.</Desc>
+
+        <SocialMediaIcon href={Bio.codingninja} target="display">
+          <SiCodingninjas color="yellow" />
+        </SocialMediaIcon>
+        <Desc>Solved 160+ Questions.</Desc>
+
+        <SocialMediaIcon href={Bio.geeksforgeeks } target="display">
+          <SiGeeksforgeeks  color="yellow" />
+        </SocialMediaIcon>
+        <Desc>Solved 240+ Questions.</Desc>
+
+      </Wrapper>
+      <Wrapper>
+        <Title>Certifications</Title>
+        <Desc>
+        1. The Complete 2023 Web Development Bootcamp by Dr.Angela Yu:
+        <a style={{color:'white'}} href="https://drive.google.com/file/d/1nd_vcCSYmfNoXveksB6qATbUPlzpjn4H/view"> Link</a>
+        </Desc>
+        <Desc>
+        2. The Complete Node.js Developer Course::
+        <a style={{color:'white'}} href="https://drive.google.com/file/d/1TowKRiArNqjtTOP45FVQJKIaVT_UiKGT/view"> Link</a>
+        </Desc>
+        <Desc>
+        3. Ultimate AWS Certified Developer Associate 2023 NEW DVA-C02 by Stephane Maarek:
+        <a style={{color:'white'}} href="https://drive.google.com/file/d/13jYqRbsN1xxHA4MytN5PZiFBif9C23Xs/view"> Link</a>
+        </Desc>
       </Wrapper>
     </Container>
   );

@@ -9,6 +9,10 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/subhransu-sekhar-panda-b9897a248/",
   twitter: "https://twitter.com/Subhransu041002",
   insta: "https://www.instagram.com/subh_sekhar_panda",
+  leetcode: "https://leetcode.com/Subhransu_02",
+  codechef: "https://www.codechef.com/users/subhransu_02",
+  codingninja: "https://www.codingninjas.com/studio/profile/dd94627a-0a8f-4946-9947-864175f79428",
+  geeksforgeeks: "https://auth.geeksforgeeks.org/user/subhransusekharpanda02/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" 
 };
 
 export const skills = [
