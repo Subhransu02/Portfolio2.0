@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Subhransu02",
   resume:
-    "https://drive.google.com/file/d/1dNGulz-3eZrFxlMQaTb5o-y7D4gexTuP/view?usp=drivesdk",
+    "https://drive.google.com/file/d/164VO3F9ZhmSzpZf3Ry7SkxGyTk1p_tda/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/subhransu-sekhar-panda-b9897a248/",
   twitter: "https://twitter.com/Subhransu041002",
   insta: "https://www.instagram.com/subh_sekhar_panda",
