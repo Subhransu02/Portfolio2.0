@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Subhransu02",
   resume:
-    "https://drive.google.com/file/d/164VO3F9ZhmSzpZf3Ry7SkxGyTk1p_tda/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1TGkATcC7x4YxUXaLlrOb-wOAIB6X3fqU/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/subhransu-sekhar-panda-b9897a248/",
   twitter: "https://twitter.com/Subhransu041002",
   insta: "https://www.instagram.com/subh_sekhar_panda",
@@ -213,6 +213,32 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 1,
+    title: "Yoom - A Zoom Clone",
+    date: "Jan 2024 - April 2024",
+    description:
+      "It allows users to host and join virtual meetings, conduct video and audio calls, share screens, and exchange messages in real-time. Provides a seamless and intuitive user experience, enabling individuals and businesses to collaborate effectively remotely.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/uploadphoto-86e4f.appspot.com/o/Yoom.png?alt=media&token=cfb73999-b198-40f8-ba64-09bbc48d1ec7",
+    tags: ["MongoDB", "React.js", "Node.js", "Express.js", ],
+    category: "web app",
+    github: "https://github.com/Subhransu02/Yoom",
+    webapp: "https://yoom-nu.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Hotel Management Web App",
+    date: "Jan 2024 - April 2024",
+    description:
+      "It is a comprehensive software solution designed to streamline and automate various operations within a hotel or hospitality establishment. Developed using a systematic approach to software engineering, the project encompasses the entire software development lifecycle, from requirement analysis to deployment and maintenance",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/uploadphoto-86e4f.appspot.com/o/book.png?alt=media&token=89906e8f-2592-45ee-bcb9-90780b3220a2",
+    tags: ["MongoDB", "React.js", "Node.js", "Express.js", "Tailwind CSS", "Stripe", "Cloudinary"],
+    category: "web app",
+    github: "https://github.com/Subhransu02/mern-booking-app",
+    webapp: "https://mern-booking-app-9rrs.onrender.com/",
+  },
   {
     id: 11,
     title: "AI Image Generator",

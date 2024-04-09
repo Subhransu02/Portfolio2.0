@@ -184,17 +184,17 @@ const Contact = () => {
         <SocialMediaIcon href={Bio.leetcode} target="display">
           <SiLeetcode color="yellow" />
         </SocialMediaIcon>
-        <Desc>Solved 260+ Questions</Desc>
+        <Desc>Solved 300+ Questions</Desc>
 
         <SocialMediaIcon href={Bio.codechef} target="display">
           <SiCodechef color="yellow" />
         </SocialMediaIcon>
-        <Desc>Participated in many contests.</Desc>
+        <Desc>Participated in many contests (Highest Rating 1421).</Desc>
 
         <SocialMediaIcon href={Bio.codingninja} target="display">
           <SiCodingninjas color="yellow" />
         </SocialMediaIcon>
-        <Desc>Solved 160+ Questions.</Desc>
+        <Desc>Solved 250+ Questions.</Desc>
 
         <SocialMediaIcon href={Bio.geeksforgeeks } target="display">
           <SiGeeksforgeeks  color="yellow" />
@@ -215,6 +215,10 @@ const Contact = () => {
         <Desc>
         3. Ultimate AWS Certified Developer Associate 2023 NEW DVA-C02 by Stephane Maarek:
         <a style={{color:'white'}} href="https://drive.google.com/file/d/13jYqRbsN1xxHA4MytN5PZiFBif9C23Xs/view"> Link</a>
+        </Desc>
+        <Desc>
+        4. AWS Cloud with AI Workshop by Mr.Vimal Daga:
+        <a style={{color:'white'}} href="https://drive.google.com/file/d/1YqD1giVw4rt9FS7xxdmWbDT-hdhUgqBo/view"> Link</a>
         </Desc>
       </Wrapper>
     </Container>
