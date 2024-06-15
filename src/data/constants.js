@@ -154,6 +154,41 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://media.licdn.com/dms/image/D4D0BAQHcpqbeYYphiA/company-logo_200_200/0/1684490219539?e=2147483647&v=beta&t=BCFKCqV15miM7Zyai8EffLQgItfMIkBCfo1bkNxiEjA",
+    role: "Software Engineering Trainee ",
+    company: "Neophyte.ai",
+    date: "May 2024 -  Present",
+    desc: "Implemented an annotation feature with bay selection and Undo function, calculating areas in square feet and marking sections with precise grids. Scaled annotations accurately to specified sections for precise floor plan delineation.",
+    skills: [
+      "ReactJS",
+      "NodeJs",
+      "Material UI",
+      "Tailwind CSS",
+      "ExpressJs",
+      "MongoDB"
+    ],
+    // doc: "https://firebasestorage.googleapis.com/v0/b/uploadphoto-86e4f.appspot.com/o/in.jpg?alt=media&token=49e874e1-f02e-4314-bbc7-eef360895772",
+  },
+  {
+    id: 0,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhg2kJiTPfC72gmPav1qIyvdnB6ySO7uplIQ&s",
+    role: "Summer Trainee",
+    company: "Proof and Experimental Establishment, DRDO" ,
+    date: "May 2024 - June 2024",
+    desc: "Developed AI performance assessment and procurement interfaces, enhancing innovation, accuracy, and operational efficiency.",
+    skills: [
+      "ReactJS",
+      "NodeJs",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Research",
+      "Audit",
+    ],
+    doc: "https://firebasestorage.googleapis.com/v0/b/uploadphoto-86e4f.appspot.com/o/pxe.png?alt=media&token=5394928e-7c8a-4ce8-9eb0-deec7f701c47",
+  },
+  {
+    id: 0,
     img: "data:image/png;base64,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",
     role: "Cloud Operations Intern",
     company: "Team Computers Pvt. Ltd.",
@@ -188,8 +223,8 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Logo_vssut.svg/1200px-Logo_vssut.svg.png",
     school: "Veer Surendra Sai University Of Technology, Burla, Odisha",
     date: "2021 - 2025",
-    grade: "9.43 CGPA (Till 5th Sem)",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Veer Surendra Sai University Of Technology, Burla. I have completed 5 semesters and have a CGPA of 9.43. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Official Web and Coding Club (ENIGMA) at VSSUT, where I am learning and working on exciting projects with a team of talented developers.",
+    grade: "9.49 CGPA (Till 6th Sem)",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Veer Surendra Sai University Of Technology, Burla. I have completed 6 semesters and have a CGPA of 9.49. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Software Engineering and Computer Networks, among others. I am also a member of the Official Web and Coding Club (ENIGMA) at VSSUT, where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {

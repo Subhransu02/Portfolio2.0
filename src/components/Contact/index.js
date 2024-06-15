@@ -184,7 +184,7 @@ const Contact = () => {
         <SocialMediaIcon href={Bio.leetcode} target="display">
           <SiLeetcode color="yellow" />
         </SocialMediaIcon>
-        <Desc>Solved 300+ Questions</Desc>
+        <Desc>Solved 350+ Questions</Desc>
 
         <SocialMediaIcon href={Bio.codechef} target="display">
           <SiCodechef color="yellow" />
@@ -219,6 +219,18 @@ const Contact = () => {
         <Desc>
         4. AWS Cloud with AI Workshop by Mr.Vimal Daga:
         <a style={{color:'white'}} href="https://drive.google.com/file/d/1YqD1giVw4rt9FS7xxdmWbDT-hdhUgqBo/view"> Link</a>
+        </Desc>
+        <Desc>
+        5. Networking by Cisco:
+        <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1bSgifU-jqq1DEh7faTIg-qdHmB35ziQk"></a>
+        </Desc>
+        <Desc>
+        6. Cybersecurity by Cisco:
+        <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1KCviRaSro4_kATgjXg_WoAbbXD2GgrUs"></a>
+        </Desc>
+        <Desc>
+        5. Python by Cisco:
+        <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1Npvlitybuqh5JGy6CoOkMvNDFhA1q3sp"></a>
         </Desc>
       </Wrapper>
     </Container>
