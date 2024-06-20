@@ -222,15 +222,15 @@ const Contact = () => {
         </Desc>
         <Desc>
         5. Networking by Cisco:
-        <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1bSgifU-jqq1DEh7faTIg-qdHmB35ziQk"></a>
+        <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1bSgifU-jqq1DEh7faTIg-qdHmB35ziQk">Link</a>
         </Desc>
         <Desc>
         6. Cybersecurity by Cisco:
-        <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1KCviRaSro4_kATgjXg_WoAbbXD2GgrUs"></a>
+        <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1KCviRaSro4_kATgjXg_WoAbbXD2GgrUs">Link</a>
         </Desc>
         <Desc>
         5. Python by Cisco:
-        <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1Npvlitybuqh5JGy6CoOkMvNDFhA1q3sp"></a>
+        <a style={{color:'white'}} href="https://drive.google.com/drive/folders/1Npvlitybuqh5JGy6CoOkMvNDFhA1q3sp">Link</a>
         </Desc>
       </Wrapper>
     </Container>
